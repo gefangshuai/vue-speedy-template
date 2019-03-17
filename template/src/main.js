@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Inject from 'vue-speedy/conf/inject'
-import pages from 'vue-speedy/src/pages'
+import pages from './routers'
+import './main.less'
 Vue.use(Inject, {
     site: {
         title: 'Speedy Demo',
